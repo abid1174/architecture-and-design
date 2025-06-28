@@ -1,8 +1,8 @@
 # SOLID Principles & Design Patterns — Learning Journey
 
-Welcome! 👋  
+Welcome! 👋
 
-This repository is my structured learning journey focused on writing clean, maintainable, and extensible code using **object-oriented design**, **SOLID principles**, and **design patterns**.  
+This repository is my structured learning journey focused on writing clean, maintainable, and extensible code using **object-oriented design**, **SOLID principles**, and **design patterns**.
 
 ---
 
@@ -38,6 +38,28 @@ This repository is my structured learning journey focused on writing clean, main
 5. **Dependency Inversion Principle (DIP)** — Depend on abstractions, not concretions.
 
 📁 Folder: `solid/`
+
+### 💥 Code Smells
+
+While learning SOLID and design patterns, it's equally important to learn to **identify and avoid code smells** — symptoms of deeper design problems that make code hard to maintain or extend.
+
+Some common code smells include:
+
+- **Large Class (God Object)**: Class does too much; violates SRP.
+- **Long Method**: Method is doing too many things.
+- **Duplicate Code**: Same logic repeated in multiple places.
+- **Feature Envy**: One class heavily relies on another class’s data or methods.
+- **Data Clumps**: Group of variables often passed around together; should be encapsulated.
+- **Divergent Change**: Class changes for many unrelated reasons.
+- **Shotgun Surgery**: A small change forces changes in many different classes.
+- **Primitive Obsession**: Overuse of primitive types instead of small objects.
+- **Switch Statements**: Overused complex conditionals, better solved via polymorphism or strategy pattern.
+- **Middle Man**: Too many simple delegations to other classes.
+- **Speculative Generality**: Code written for possible future use that never happens.
+
+📁 Folder: `code-smells/`
+
+> 💡 **Goal:** Learn to **recognize and refactor** these smells using SOLID principles and patterns.
 
 ---
 
@@ -111,6 +133,8 @@ This repository is my structured learning journey focused on writing clean, main
 │   └── dependency-inversion/
 ├── patterns/
 │   ├── creational/
+│   │   └── singleton/
+│   │   └── builder/
 │   ├── structural/
 │   └── behavioral/
 ├── architecture/
@@ -118,4 +142,4 @@ This repository is my structured learning journey focused on writing clean, main
 ├── common/
 │   └── shared utilities or base abstractions
 └── README.md
-
+```
