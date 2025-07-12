@@ -6,12 +6,26 @@ This repository is my structured learning journey focused on writing clean, main
 
 ---
 
+## 📊 Progress Tracker
+
+**Overall Progress:** [ ] 0% Complete
+
+### 📈 Completion Summary
+
+- [x] **OOP Fundamentals** (0/5 topics)
+- [ ] **SOLID Principles** (0/5 principles)
+- [ ] **Code Smells** (0/11 smells)
+- [ ] **Design Patterns** (0/22 patterns)
+- [ ] **Clean Architecture** (0/4 topics)
+
+---
+
 ## 🎯 Objectives
 
-- Strengthen understanding of **object-oriented programming (OOP)** fundamentals.
-- Master **SOLID principles** for robust class and module design.
-- Learn and implement classic **design patterns** (creational, structural, behavioral).
-- Prepare to design scalable systems using advanced architectural approaches.
+- [ ] Strengthen understanding of **object-oriented programming (OOP)** fundamentals.
+- [ ] Master **SOLID principles** for robust class and module design.
+- [ ] Learn and implement classic **design patterns** (creational, structural, behavioral).
+- [ ] Prepare to design scalable systems using advanced architectural approaches.
 
 ---
 
@@ -19,11 +33,11 @@ This repository is my structured learning journey focused on writing clean, main
 
 ### 1️⃣ Object-Oriented Programming Fundamentals
 
-- Classes and objects
-- Encapsulation
-- Inheritance vs composition
-- Polymorphism
-- Abstraction
+- [ ] Classes and objects
+- [ ] Encapsulation
+- [ ] Inheritance vs composition
+- [ ] Polymorphism
+- [ ] Abstraction
 
 📁 Folder: `oop-fundamentals/`
 
@@ -31,11 +45,11 @@ This repository is my structured learning journey focused on writing clean, main
 
 ### 2️⃣ SOLID Principles
 
-1. **Single Responsibility Principle (SRP)** — One reason to change.
-2. **Open/Closed Principle (OCP)** — Open for extension, closed for modification.
-3. **Liskov Substitution Principle (LSP)** — Subtypes should be substitutable for base types.
-4. **Interface Segregation Principle (ISP)** — No client should depend on unused interfaces.
-5. **Dependency Inversion Principle (DIP)** — Depend on abstractions, not concretions.
+1. [ ] **Single Responsibility Principle (SRP)** — One reason to change.
+2. [x] **Open/Closed Principle (OCP)** — Open for extension, closed for modification.
+3. [ ] **Liskov Substitution Principle (LSP)** — Subtypes should be substitutable for base types.
+4. [ ] **Interface Segregation Principle (ISP)** — No client should depend on unused interfaces.
+5. [ ] **Dependency Inversion Principle (DIP)** — Depend on abstractions, not concretions.
 
 📁 Folder: `solid/`
 
@@ -45,17 +59,17 @@ While learning SOLID and design patterns, it's equally important to learn to **i
 
 Some common code smells include:
 
-- **Large Class (God Object)**: Class does too much; violates SRP.
-- **Long Method**: Method is doing too many things.
-- **Duplicate Code**: Same logic repeated in multiple places.
-- **Feature Envy**: One class heavily relies on another class’s data or methods.
-- **Data Clumps**: Group of variables often passed around together; should be encapsulated.
-- **Divergent Change**: Class changes for many unrelated reasons.
-- **Shotgun Surgery**: A small change forces changes in many different classes.
-- **Primitive Obsession**: Overuse of primitive types instead of small objects.
-- **Switch Statements**: Overused complex conditionals, better solved via polymorphism or strategy pattern.
-- **Middle Man**: Too many simple delegations to other classes.
-- **Speculative Generality**: Code written for possible future use that never happens.
+- [ ] **Large Class (God Object)**: Class does too much; violates SRP.
+- [ ] **Long Method**: Method is doing too many things.
+- [ ] **Duplicate Code**: Same logic repeated in multiple places.
+- [ ] **Feature Envy**: One class heavily relies on another class's data or methods.
+- [ ] **Data Clumps**: Group of variables often passed around together; should be encapsulated.
+- [ ] **Divergent Change**: Class changes for many unrelated reasons.
+- [ ] **Shotgun Surgery**: A small change forces changes in many different classes.
+- [ ] **Primitive Obsession**: Overuse of primitive types instead of small objects.
+- [ ] **Switch Statements**: Overused complex conditionals, better solved via polymorphism or strategy pattern.
+- [ ] **Middle Man**: Too many simple delegations to other classes.
+- [ ] **Speculative Generality**: Code written for possible future use that never happens.
 
 📁 Folder: `code-smells/`
 
@@ -67,11 +81,11 @@ Some common code smells include:
 
 #### ⭐ Creational Patterns
 
-- Factory Method
-- Abstract Factory
-- Builder
-- Singleton
-- Prototype
+- [ ] Factory Method
+- [ ] Abstract Factory
+- [ ] Builder
+- [x] Singleton
+- [ ] Prototype
 
 📁 Folder: `patterns/creational/`
 
@@ -79,13 +93,13 @@ Some common code smells include:
 
 #### ⭐ Structural Patterns
 
-- Adapter
-- Decorator
-- Proxy
-- Composite
-- Facade
-- Bridge
-- Flyweight
+- [x] Adapter
+- [ ] Decorator
+- [ ] Proxy
+- [ ] Composite
+- [ ] Facade
+- [ ] Bridge
+- [ ] Flyweight
 
 📁 Folder: `patterns/structural/`
 
@@ -93,16 +107,16 @@ Some common code smells include:
 
 #### ⭐ Behavioral Patterns
 
-- Strategy
-- Observer
-- Command
-- Chain of Responsibility
-- Template Method
-- Mediator
-- State
-- Visitor
-- Iterator
-- Memento
+- [ ] Strategy
+- [ ] Observer
+- [ ] Command
+- [ ] Chain of Responsibility
+- [ ] Template Method
+- [ ] Mediator
+- [ ] State
+- [ ] Visitor
+- [ ] Iterator
+- [ ] Memento
 
 📁 Folder: `patterns/behavioral/`
 
@@ -110,10 +124,10 @@ Some common code smells include:
 
 ### 4️⃣ Clean Architecture & Advanced Design (Future Scope)
 
-- Clean Architecture (layered, hexagonal, ports & adapters)
-- Domain-Driven Design (DDD)
-- CQRS & Event-Driven Design
-- Testing approaches in clean architectures
+- [ ] Clean Architecture (layered, hexagonal, ports & adapters)
+- [ ] Domain-Driven Design (DDD)
+- [ ] CQRS & Event-Driven Design
+- [ ] Testing approaches in clean architectures
 
 📁 Folder: `architecture/`
 
@@ -143,3 +157,16 @@ Some common code smells include:
 │   └── shared utilities or base abstractions
 └── README.md
 ```
+
+## ✅ How to Use This Tracker
+
+1. **Check off completed topics** by changing `[ ]` to `[x]`
+2. **Update the progress summary** at the top as you complete sections
+3. **Add notes or links** to your implementations in the relevant folders
+4. **Track your learning pace** and adjust your study plan accordingly
+
+### 📝 Progress Notes
+
+<!-- Add your learning notes, insights, and implementation links here -->
+
+---
