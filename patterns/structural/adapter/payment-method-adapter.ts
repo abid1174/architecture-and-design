@@ -123,3 +123,28 @@ paymentService.addProvider("paypal", new PayPalPaymentAdapter(new PayPalPayment(
 paymentService.processPayment(100, { provider: "bank", accountNumber: "1234567890" });
 paymentService.processPayment(100, { provider: "stripe", token: "1234567890" });
 paymentService.processPayment(100, { provider: "paypal", email: "test@test.com" });
+
+
+
+// ❌ BAD APPROACH (what we're avoiding):
+class BadPaymentService {
+    processPayment(amount: number, method: string, data: any): boolean {
+        if (method === 'bank') {
+            const bank = new BankPayment();
+            return bank.processPayment(amount, data.accountNumber);
+        } else if (method === 'stripe') {
+            const stripe = new StripePayment();
+            const result = stripe.charge(amount, data.token);
+            return result.success;
+        } else if (method === 'paypal') {
+            const paypal = new PayPalPayment();
+            try {
+                const txId = paypal.executePayment({ amount, email: data.email });
+                return txId !== null;
+            } catch (error) {
+                return false;
+            }
+        }
+        return false;
+    }
+}
